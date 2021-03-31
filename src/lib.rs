@@ -85,6 +85,9 @@
 //! ```
 //!
 
+mod calculate;
+mod parser;
+
 use anyhow::anyhow;
 use nom::character::complete::{alpha1, digit1, multispace0};
 use nom::combinator::opt;
